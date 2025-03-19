@@ -1,0 +1,91 @@
+version: "3.1"
+nlu:
+  - intent: cumprimentar
+    examples: |
+      - oi
+      - olá
+      - bom dia
+      - boa tarde
+      - boa noite
+      - e aí?
+      - tudo bem?
+      - como você está?
+      - olá, tudo certo?
+
+  - intent: agradecer
+    examples: |
+      - obrigado
+      - muito obrigado
+      - valeu
+      - agradeço
+      - grato
+      - agradeço muito
+      - valeu, você é ótimo!
+
+  - intent: informar_genero
+    examples: |
+      - gosto de [comédia](genero)
+      - quero ver um filme de [ação](genero)
+      - prefiro [drama](genero)
+      - me indica um filme de [suspense](genero)
+      - quero ver um filme de [terror](genero)
+      - me indica um filme de [romance](genero)
+      - me indica um filme de [ficção científica](genero)
+      - filmes de [aventura](genero) são ótimos!
+      - adoro filmes de [mistério](genero)
+    
+  - intent: negar
+    examples: |
+      - não
+      - acho que não
+      - prefiro não
+      - não quero
+      - não é o que estou procurando
+
+  - intent: despedir
+    examples: |
+      - tchau
+      - até logo
+      - adeus
+      - até a próxima
+      - nos vemos
+      - até mais tarde
+
+  - intent: afirmar
+    examples: |
+      - sim
+      - claro
+      - com certeza
+      - é isso mesmo
+      - sem dúvida
+      - pode deixar
+
+  - intent: pedir_ajuda
+    examples: |
+      - pode me ajudar?
+      - você pode me dar uma mão?
+      - preciso de ajuda
+      - me ajude, por favor
+      - você consegue me ajudar?
+      - preciso de assistência
+
+  - intent: pedir_recomendacao
+    examples: |
+      - me indica um bom filme
+      - qual filme você me recomenda?
+      - pode me dar uma sugestão de filme?
+      - me recomenda algo para assistir
+      - estou procurando um filme bom para assistir
+      - você tem algum filme interessante?
+
+  - intent: informar_genero_nao_listado
+    examples: |
+      - gosto de [aventura](genero)
+      - quero ver um filme de [biografia](genero)
+      - prefiro [musical](genero)
+      - me indica um filme de [mistério](genero)
+      - gosto de [animação](genero)
+      - me indica um filme de [documentário](genero)
+      - quero ver um filme de [fantasia](genero)
+      - filmes de [arte](genero) são legais
+      - me indica um filme de [thriller](genero)

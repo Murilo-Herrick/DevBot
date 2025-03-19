@@ -1,0 +1,18 @@
+{
+  "comédia": "comédia",
+  "ação": "ação",
+  "drama": "drama",
+  "suspense": "suspense",
+  "terror": "terror",
+  "romance": "romance",
+  "ficção científica": "ficção científica",
+  "aventura": "aventura",
+  "mistério": "mistério",
+  "biografia": "biografia",
+  "musical": "musical",
+  "animação": "animação",
+  "documentário": "documentário",
+  "fantasia": "fantasia",
+  "arte": "arte",
+  "thriller": "thriller"
+}

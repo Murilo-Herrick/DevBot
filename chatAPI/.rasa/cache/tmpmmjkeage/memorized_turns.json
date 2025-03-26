@@ -1,0 +1,11 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhILUovTSvJDE+OSczN7G2NhYA86ofOQ==": "utter_pergunta_clima",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhILUovTSvJDE+OSczN7GWgGGlJSWpRfFoegiaGQsAhgI/sw==": "action_listen",
+    "eJyljkEKQjEMRK+SA3xEt73Kp5RQogTa9NOmgpbe3YiK8Dcu3GWYl5lZx1xgbJWuAaNyEQfjdQTBTA7eInFTEmN7o2oMi0l1sFG9dFEMMXHG+SOsq1INu58/M/cDWyraDIqsNwfr6XD03wrLZ2Uyf336foFPKcu51IwhlYiJ7xixzOkfpmps5g==": "action_informa_clima",
+    "eJytT0sKAjEMvUoOMIhue5WhlFCiBNp0aFNBy9zdDlqE2SjoLo/3zdzWCdqS6erQKycx0J6HE4xk4AUCFyXp2loodw1Lh2pgoXypouh84Ijrh7CqStntPD9m7geWkLR0kWe9GZhPh6N9V/R8VqbOzxtvJxilLOeUI7qQPAa+o8f0ZfNwjm/+OcA+AKUSnNs=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5Mb+2NhYAPkUcrw==": "utter_saudacao",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5Mb+WgDGlJSWpRfFw1XjMiQUAL4M4FQ==": "action_listen"
+  }
+}

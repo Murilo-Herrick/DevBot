@@ -1,0 +1,43 @@
+version: "3.1"
+
+nlu:
+  - intent: saudacao
+    examples: |
+      - Olá
+      - Oi
+      - Boa tarde
+      - Como vai?
+
+  - intent: problema_acesso
+    examples: |
+      - Não consigo acessar minha conta
+      - Estou com problemas para logar
+      - Minha conta está bloqueada
+      - Não consigo fazer login
+
+  - intent: problema_plano
+    examples: |
+      - Quero mudar meu plano
+      - Como alterar meu plano de assinatura?
+      - Quero trocar de plano
+      - Como faço para mudar meu plano?
+
+  - intent: problema_aplicativo
+    examples: |
+      - O aplicativo não funciona
+      - O app não está abrindo
+      - Estou com problemas no aplicativo
+      - O app travou
+
+  - intent: despedida
+    examples: |
+      - Até logo
+      - Tchau
+      - Obrigado, tchau
+      - Até mais
+
+  - intent: problema_geral
+    examples: |
+      - Tenho um problema
+      - Preciso de ajuda
+      - Não consigo resolver o meu problema

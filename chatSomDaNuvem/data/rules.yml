@@ -1,0 +1,7 @@
+version: "3.1"
+
+rules:
+  - rule: Encaminhamento para atendente quando o problema for complexo
+    steps:
+      - intent: problema_geral
+      - action: utter_encaminhamento_atendente

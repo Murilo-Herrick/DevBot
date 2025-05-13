@@ -1,0 +1,42 @@
+version: "3.1"
+
+intents:
+  - saudacao
+  - problema_acesso
+  - problema_plano
+  - problema_aplicativo
+  - despedida
+  - problema_geral
+
+entities:
+  - problema
+
+slots:
+  problema:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: problema
+
+responses:
+  utter_saudacao:
+    - text: "Olá! Como posso ajudá-lo hoje?"
+  
+  utter_despedida:
+    - text: "Até logo! Se precisar de ajuda, estamos sempre por aqui."
+
+  utter_problema_acesso:
+    - text: "Parece que você está tendo problemas para acessar sua conta. Vamos tentar uma solução. Tente redefinir sua senha no link abaixo: [Link para redefinir senha]."
+
+  utter_problema_plano:
+    - text: "Se deseja mudar seu plano, temos algumas opções disponíveis. Você pode conferir os planos [aqui](link para os planos)."
+
+  utter_problema_aplicativo:
+    - text: "Lamento saber que o aplicativo não está funcionando. Tente fechar e reabrir o aplicativo. Se o problema persistir, acesse o nosso artigo de ajuda [link para ajuda]."
+
+  utter_encaminhamento_atendente:
+    - text: "Parece que seu problema é um pouco mais complexo. Vou encaminhá-lo para um atendente humano para que ele possa ajudar melhor. Um momento, por favor..."
+
+actions:
+  - action_fornecer_suporte

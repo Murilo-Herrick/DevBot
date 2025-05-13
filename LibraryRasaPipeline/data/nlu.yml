@@ -1,0 +1,77 @@
+version: "3.1"
+
+nlu:
+- intent: buscar_livro_titulo
+  examples: |
+    - qual o livro [Dom Casmurro](titulo_livro)
+    - buscar livro chamado [Cem Anos de Solidão](titulo_livro)
+    - quero saber sobre [O Pequeno Príncipe](titulo_livro)
+    - você tem o livro [Harry Potter](titulo_livro)?
+    - tem disponível o livro [A Cabana](titulo_livro)
+    - quero detalhes do livro [A Saga Crepúsculo](titulo_livro)
+    - me mostra informações sobre [O Senhor dos Anéis](titulo_livro)
+    - gostaria de saber mais sobre [As Crônicas de Nárnia](titulo_livro)
+    - quero ler [Harry Potter](titulo_livro)
+    - gostaria de ler [Dom Casmurro](titulo_livro)
+    - estou afim de ler [A Cabana](titulo_livro)
+    - tem disponível [O Hobbit](titulo_livro)?
+
+
+- intent: buscar_livro_autor
+  examples: |
+    - livro de [Machado de Assis](nome_autor)
+    - buscar algo do [Gabriel Garcia Marquez](nome_autor)
+    - quero ler um livro de [Clarice Lispector](nome_autor)
+    - tem livro da [J.K. Rowling](nome_autor)?
+    - mostre livros de [Stephen King](nome_autor)
+    - você tem livros escritos por [George Orwell](nome_autor)?
+    - queria ver algo do autor [José Saramago](nome_autor)
+
+- intent: buscar_livro_assunto
+  examples: |
+    - livros sobre [história do Brasil](assunto_livro)
+    - [ficção científica](assunto_livro)
+    - quero um livro de [romance](assunto_livro)
+    - quero ler um [suspense](assunto_livro)
+    - queria ler um livro de [terror](assunto_livro)
+    - queria ler um [sci-fi](assunto_livro)
+    - você tem algo sobre [aventura](assunto_livro)?
+    - estou procurando livros sobre [filosofia](assunto_livro)
+    - algo relacionado à [psicologia](assunto_livro)
+    - quero ler algo de [romance](assunto_livro)
+    - gostaria de um livro de [terror](assunto_livro)
+    - você tem algum livro de [ficção científica](assunto_livro)?
+
+
+- intent: buscar_livro_isbn
+  examples: |
+    - procurar livro pelo ISBN [9783161484100](isbn)
+    - quero o livro com ISBN [978-0-06-112008-4](isbn)
+    - você tem um livro com o código [9788535902772](isbn)?
+    - buscar pelo ISBN [9780307277671](isbn)
+    - preciso do livro com o ISBN [978-85-325-2952-0](isbn)
+    - encontre o livro com ISBN [978-1-4028-9462-6](isbn)
+
+- intent: saudacao
+  examples: |
+    - oi
+    - olá
+    - bom dia
+    - boa tarde
+    - boa noite
+    - e aí
+    - tudo bem?
+    - fala comigo
+    - oie
+    - alô
+
+- intent: despedida
+  examples: |
+    - tchau
+    - até mais
+    - valeu, até a próxima
+    - falou
+    - adeus
+    - até logo
+    - vou nessa
+    - obrigado, tchau

@@ -1,0 +1,57 @@
+version: "3.1"
+
+stories:
+- story: saudação e busca por título
+  steps:
+    - intent: saudacao
+    - action: utter_saudacao
+    - intent: buscar_livro_titulo
+    - action: action_buscar_livro_titulo
+
+- story: saudação e busca por autor
+  steps:
+    - intent: saudacao
+    - action: utter_saudacao
+    - intent: buscar_livro_autor
+    - action: action_buscar_livro_autor
+
+- story: saudação e busca por assunto
+  steps:
+    - intent: saudacao
+    - action: utter_saudacao
+    - intent: buscar_livro_assunto
+    - action: action_buscar_livro_assunto
+
+- story: buscar livro por título diretamente
+  steps:
+    - intent: buscar_livro_titulo
+    - action: action_buscar_livro_titulo
+
+- story: buscar livro por autor diretamente
+  steps:
+    - intent: buscar_livro_autor
+    - action: action_buscar_livro_autor
+
+- story: buscar livro por assunto diretamente
+  steps:
+    - intent: buscar_livro_assunto
+    - action: action_buscar_livro_assunto
+
+- story: buscar livro por ISBN
+  steps:
+    - intent: buscar_livro_isbn
+    - action: action_buscar_livro_isbn
+
+- story: despedida simples
+  steps:
+    - intent: despedida
+    - action: utter_despedida
+
+- story: fluxo completo com saudação, busca e despedida
+  steps:
+    - intent: saudacao
+    - action: utter_saudacao
+    - intent: buscar_livro_autor
+    - action: action_buscar_livro_autor
+    - intent: despedida
+    - action: utter_despedida

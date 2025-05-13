@@ -1,0 +1,53 @@
+version: "3.1"
+
+intents:
+  - saudacao
+  - despedida
+  - buscar_livro_titulo
+  - buscar_livro_autor
+  - buscar_livro_assunto
+  - buscar_livro_isbn
+
+entities:
+  - titulo_livro
+  - nome_autor
+  - assunto_livro
+  - isbn
+
+slots:
+  titulo_livro:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: titulo_livro
+
+  nome_autor:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: nome_autor
+
+  assunto_livro:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: assunto_livro
+
+  isbn:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: isbn
+
+responses:
+  utter_saudacao:
+    - text: "Olá! Como posso te ajudar a encontrar um livro hoje?"
+
+  utter_despedida:
+    - text: "Até mais! Espero que encontre uma boa leitura :)"
+
+actions:
+  - action_buscar_livro_titulo
+  - action_buscar_livro_autor
+  - action_buscar_livro_assunto
+  - action_buscar_livro_isbn
